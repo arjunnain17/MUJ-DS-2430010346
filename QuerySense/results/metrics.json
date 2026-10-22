@@ -1,0 +1,107 @@
+{
+  "generated_at_utc": "2026-10-22T16:25:17+00:00",
+  "querysense_version": "1.0.0",
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "top_k": 3,
+  "knowledge_base": {
+    "records": 150,
+    "categories": 7,
+    "fingerprint": "f343a32a25c07c3b"
+  },
+  "evaluation_set": {
+    "queries": 40,
+    "query_types": {
+      "paraphrase": 22,
+      "combined": 9,
+      "keyword-heavy": 5,
+      "short": 4
+    }
+  },
+  "models": {
+    "tfidf": {
+      "available": true,
+      "description": {
+        "name": "tfidf",
+        "score_label": "cosine similarity (TF-IDF)",
+        "documents": 150,
+        "model_load_seconds": 0.0,
+        "build_seconds": 0.0294,
+        "modality": "sparse lexical",
+        "vectorizer": "sklearn TfidfVectorizer",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "sublinear_tf": true,
+        "stop_words": "english",
+        "vocabulary_size": 2144,
+        "similarity": "cosine over L2-normalized TF-IDF vectors"
+      },
+      "metrics": {
+        "evaluated_queries": 40,
+        "k": 3,
+        "precision_at_k": 0.2833333333333333,
+        "recall_at_k": 0.6625,
+        "mrr": 0.6541666666666667,
+        "hit_rate_at_k": 0.775,
+        "map_at_k": 0.56875,
+        "queries_with_no_relevant_retrieved": 9,
+        "mean_latency_ms": 1.0256150038912892,
+        "median_latency_ms": 1.0213999776169658,
+        "p95_latency_ms": 1.1224600370042026,
+        "queries": 40,
+        "model": "tfidf",
+        "model_load_seconds": 0.0,
+        "index_build_seconds": 0.0294
+      }
+    },
+    "semantic": {
+      "available": true,
+      "description": {
+        "name": "semantic",
+        "score_label": "cosine similarity (MiniLM embeddings)",
+        "documents": 150,
+        "model_load_seconds": 10.4392,
+        "build_seconds": 0.6963,
+        "modality": "dense semantic",
+        "model": "sentence-transformers/all-MiniLM-L6-v2",
+        "device": "cpu",
+        "embedding_dim": 384,
+        "normalized": true,
+        "similarity": "cosine over L2-normalized MiniLM embeddings"
+      },
+      "metrics": {
+        "evaluated_queries": 40,
+        "k": 3,
+        "precision_at_k": 0.35,
+        "recall_at_k": 0.825,
+        "mrr": 0.8583333333333333,
+        "hit_rate_at_k": 0.925,
+        "map_at_k": 0.7583333333333333,
+        "queries_with_no_relevant_retrieved": 3,
+        "mean_latency_ms": 9.668202506145462,
+        "median_latency_ms": 9.573950024787337,
+        "p95_latency_ms": 10.53513499209657,
+        "queries": 40,
+        "model": "semantic",
+        "model_load_seconds": 10.4392,
+        "index_build_seconds": 0.6963
+      }
+    }
+  },
+  "notes": [
+    "Precision@k uses k as the denominator, so a query with no relevant result scores 0.",
+    "Scores produced by the two retrievers are model-specific and are not calibrated probabilities; they must not be compared across models.",
+    "Both models were evaluated on the identical knowledge base and identical queries, with no threshold tuning on the evaluation set.",
+    "Semantic MRR is 0.2042 higher than TF-IDF MRR on this query set."
+  ],
+  "comparison": {
+    "precision_at_k_delta": 0.0667,
+    "recall_at_k_delta": 0.1625,
+    "mrr_delta": 0.2042,
+    "median_latency_ms_delta": 8.553
+  }
+}
