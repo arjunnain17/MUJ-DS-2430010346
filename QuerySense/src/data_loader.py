@@ -71,10 +71,10 @@ def validate_faqs(df: pd.DataFrame, *, generate_missing_ids: bool = True) -> pd.
     if df is None or df.empty:
         raise DataValidationError("The knowledge base contains no rows.")
 
-    _check_columns(df, REQUIRED_UPLOAD_COLUMNS, "Knowledge base")
-
     cleaned = df.copy()
     cleaned.columns = [str(column).strip().lower() for column in cleaned.columns]
+
+    _check_columns(cleaned, REQUIRED_UPLOAD_COLUMNS, "Knowledge base")
 
     for column in FAQ_COLUMNS:
         if column not in cleaned.columns:
