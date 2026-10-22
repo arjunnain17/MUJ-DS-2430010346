@@ -1,81 +1,81 @@
 model,query_id,query,query_type,relevant_ids,retrieved_ids,precision_at_k,recall_at_k,reciprocal_rank,first_relevant_rank,hit_at_k,correct,missed_relevant_ids,latency_ms
-tfidf,Q01,I am not sure whether I am allowed to sit for my end semester papers,paraphrase,REG-005|REG-006,REG-006|ATT-014|LIB-012,0.3333333333333333,0.5,1.0,1,1,True,REG-005,1.020599971525371
-tfidf,Q02,How much of my classes do I need to attend to be allowed to write exams?,paraphrase,REG-006|ATT-001,ADM-018|ATT-002|FEE-007,0.0,0.0,0.0,0,0,False,REG-006|ATT-001,1.0037999600172043
-tfidf,Q03,steps to get into the university as a new student,short,ADM-001|ADM-009,FEE-013|TEC-016|ADM-001,0.3333333333333333,0.5,0.3333333333333333,3,1,True,ADM-009,1.0039000771939754
-tfidf,Q04,papers I need to submit with my application form,keyword-heavy,ADM-002,LIB-012|ADM-007|ADM-001,0.0,0.0,0.0,0,0,False,ADM-002,0.8953999495133758
-tfidf,Q05,"my attendance is very low, what will happen to me?",paraphrase,ATT-003|ATT-004,ATT-003|ATT-013|ATT-009,0.3333333333333333,0.5,1.0,1,1,True,ATT-004,0.9392999345436692
-tfidf,Q06,can I borrow more than two books and for how long?,paraphrase,LIB-002|LIB-003,LIB-002|LIB-016|LIB-006,0.3333333333333333,0.5,1.0,1,1,True,LIB-003,0.8454000344499946
-tfidf,Q07,I lost the book I borrowed from the reading room,paraphrase,LIB-007,LIB-007|LIB-004|LIB-003,0.3333333333333333,1.0,1.0,1,1,True,,0.8175000548362732
-tfidf,Q08,how to get internet on my phone in the hostel,paraphrase,HOS-009,HOS-009|TEC-003|HOS-001,0.3333333333333333,1.0,1.0,1,1,True,,0.9921001037582755
-tfidf,Q09,electric kettle in my hostel room is it allowed,keyword-heavy,HOS-012,HOS-006|HOS-003|HOS-002,0.0,0.0,0.0,0,0,False,HOS-012,1.0495000751689076
-tfidf,Q10,I forgot my login password for the student website,paraphrase,TEC-001,TEC-001|TEC-002|TEC-017,0.3333333333333333,1.0,1.0,1,1,True,,1.055500004440546
-tfidf,Q11,wireless keeps dropping in the academic block,paraphrase,TEC-004,TEC-003|ATT-013|ATT-020,0.0,0.0,0.0,0,0,False,TEC-004,1.0495999595150352
-tfidf,Q12,when do I have to pay my college fees by,paraphrase,FEE-002,FEE-005|FEE-001|FEE-002,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,1.083899987861514
-tfidf,Q13,money back if I leave the course before it starts,combined,ADM-018|FEE-015,ATT-005|ATT-011|ATT-006,0.0,0.0,0.0,0,0,False,ADM-018|FEE-015,1.095099956728518
-tfidf,Q14,certificate proving I am currently a student here,paraphrase,FEE-011,FEE-011|FEE-012|FEE-017,0.3333333333333333,1.0,1.0,1,1,True,,1.069099991582334
-tfidf,Q15,how do I register the subjects I want this term,paraphrase,REG-001,REG-016|REG-019|REG-001,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,1.2737000361084938
-tfidf,Q16,I want to swap one subject for another after registration,combined,REG-003|REG-018,REG-014|REG-018|REG-002,0.3333333333333333,0.5,0.5,2,1,True,REG-003,1.1387999402359128
-tfidf,Q17,what marks do I need to keep my scholarship,paraphrase,FEE-008,FEE-008|FEE-021|FEE-009,0.3333333333333333,1.0,1.0,1,1,True,,1.1216000420972705
-tfidf,Q18,"my exam paper marks look wrong, can I complain",paraphrase,REG-011,FEE-020|REG-010|REG-009,0.0,0.0,0.0,0,0,False,REG-011,1.0670999763533473
-tfidf,Q19,i failed a subject what do i do next,short,REG-009|REG-014,REG-014|TEC-002|ADM-014,0.3333333333333333,0.5,1.0,1,1,True,REG-009,1.0215999791398644
-tfidf,Q20,how many days can I keep a library book,short,LIB-003,LIB-007|LIB-011|LIB-009,0.0,0.0,0.0,0,0,False,LIB-003,1.0020999470725656
-tfidf,Q21,place to study quietly on campus,paraphrase,LIB-010,LIB-010|HOS-017|HOS-018,0.3333333333333333,1.0,1.0,1,1,True,,1.052199979312718
-tfidf,Q22,someone is bullying me in the hostel how do I report it,paraphrase,HOS-011,HOS-006|TEC-009|HOS-011,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,1.01650005672127
-tfidf,Q23,doctor on campus where and when,short,HOS-014,HOS-014|ATT-011|HOS-017,0.3333333333333333,1.0,1.0,1,1,True,,1.0248000035062432
-tfidf,Q24,matlab licence for my project,keyword-heavy,TEC-014,TEC-014|TEC-010,0.3333333333333333,1.0,1.0,1,1,True,,1.0198000818490982
-tfidf,Q25,can I stay somewhere on campus instead of travelling daily,combined,HOS-001|HOS-002,HOS-005|HOS-017|HOS-018,0.0,0.0,0.0,0,0,False,HOS-001|HOS-002,1.0228999890387058
-tfidf,Q26,final year marksheet in a sealed envelope for a foreign university,combined,REG-017|FEE-013,ADM-017|FEE-013|REG-017,0.6666666666666666,1.0,0.5,2,1,True,,0.9843999287113547
-tfidf,Q27,appeal against the college decision on my marks,paraphrase,ATT-020,ATT-020|REG-010|REG-012,0.3333333333333333,1.0,1.0,1,1,True,,0.990399974398315
-tfidf,Q28,installment option for paying admission charges,keyword-heavy,FEE-005,ADM-017|HOS-002|ADM-001,0.0,0.0,0.0,0,0,False,FEE-005,1.0198000818490982
-tfidf,Q29,how do i submit a medical certificate for missed classes,combined,ATT-011|ATT-004,ATT-011|REG-008|ADM-018,0.3333333333333333,0.5,1.0,1,1,True,ATT-004,1.0063000954687595
-tfidf,Q30,email account of the college how to open it,paraphrase,TEC-006,TEC-006|TEC-017|TEC-016,0.3333333333333333,1.0,1.0,1,1,True,,1.043899916112423
-tfidf,Q31,no dues certificate before graduation,paraphrase,FEE-017,FEE-017|FEE-012|FEE-011,0.3333333333333333,1.0,1.0,1,1,True,,1.0091000003740191
-tfidf,Q32,what attendance percentage is compulsory in labs,combined,ATT-007|REG-006,ATT-002|ATT-007|ATT-003,0.3333333333333333,0.5,0.5,2,1,True,REG-006,1.021199976094067
-tfidf,Q33,vpn to read papers from home,combined,TEC-021|LIB-006,TEC-018|LIB-012|TEC-021,0.3333333333333333,0.5,0.3333333333333333,3,1,True,LIB-006,1.0473000584170222
-tfidf,Q34,branch change possible after first year,paraphrase,ADM-019,ADM-019|ADM-017|REG-018,0.3333333333333333,1.0,1.0,1,1,True,,1.0102998930960894
-tfidf,Q35,exam admit card download,keyword-heavy,REG-007,REG-007|HOS-019|LIB-008,0.3333333333333333,1.0,1.0,1,1,True,,1.0261000134050846
-tfidf,Q36,deadline to add or remove a subject,combined,REG-002|REG-003,REG-003|REG-014|REG-002,0.6666666666666666,1.0,1.0,1,1,True,,1.012300024740398
-tfidf,Q37,fees paid in parts allowed or not,paraphrase,FEE-005,FEE-005|HOS-005|ATT-014,0.3333333333333333,1.0,1.0,1,1,True,,1.0445000370964408
-tfidf,Q38,how do i book the badminton court,paraphrase,HOS-016,HOS-016|HOS-020|LIB-011,0.3333333333333333,1.0,1.0,1,1,True,,1.0177000658586621
-tfidf,Q39,suspicious email asking for my password,paraphrase,TEC-017,TEC-017|TEC-001|TEC-006,0.3333333333333333,1.0,1.0,1,1,True,,1.047499943524599
-tfidf,Q40,cgpa and grade points explained,combined,REG-012|REG-013,REG-012|REG-013|ATT-016,0.6666666666666666,1.0,1.0,1,1,True,,1.062000053934753
-semantic,Q01,I am not sure whether I am allowed to sit for my end semester papers,paraphrase,REG-005|REG-006,REG-006|ATT-006|LIB-018,0.3333333333333333,0.5,1.0,1,1,True,REG-005,11.784899979829788
-semantic,Q02,How much of my classes do I need to attend to be allowed to write exams?,paraphrase,REG-006|ATT-001,REG-004|REG-006|REG-005,0.3333333333333333,0.5,0.5,2,1,True,ATT-001,11.738499975763261
-semantic,Q03,steps to get into the university as a new student,short,ADM-001|ADM-009,ADM-001|ADM-011|FEE-011,0.3333333333333333,0.5,1.0,1,1,True,ADM-009,9.408899932168424
-semantic,Q04,papers I need to submit with my application form,keyword-heavy,ADM-002,ADM-002|ADM-001|FEE-023,0.3333333333333333,1.0,1.0,1,1,True,,10.012399987317622
-semantic,Q05,"my attendance is very low, what will happen to me?",paraphrase,ATT-003|ATT-004,ATT-003|ATT-004|ATT-001,0.6666666666666666,1.0,1.0,1,1,True,,9.9222999997437
-semantic,Q06,can I borrow more than two books and for how long?,paraphrase,LIB-002|LIB-003,LIB-002|LIB-004|LIB-003,0.6666666666666666,1.0,1.0,1,1,True,,10.32400003168732
-semantic,Q07,I lost the book I borrowed from the reading room,paraphrase,LIB-007,LIB-007|LIB-004|LIB-011,0.3333333333333333,1.0,1.0,1,1,True,,8.959099999628961
-semantic,Q08,how to get internet on my phone in the hostel,paraphrase,HOS-009,HOS-009|TEC-003|TEC-008,0.3333333333333333,1.0,1.0,1,1,True,,9.456499945372343
-semantic,Q09,electric kettle in my hostel room is it allowed,keyword-heavy,HOS-012,HOS-012|HOS-005|HOS-021,0.3333333333333333,1.0,1.0,1,1,True,,10.0080999545753
-semantic,Q10,I forgot my login password for the student website,paraphrase,TEC-001,TEC-001|TEC-002|TEC-006,0.3333333333333333,1.0,1.0,1,1,True,,9.559700032696128
-semantic,Q11,wireless keeps dropping in the academic block,paraphrase,TEC-004,TEC-004|TEC-008|TEC-003,0.3333333333333333,1.0,1.0,1,1,True,,9.419300011359155
-semantic,Q12,when do I have to pay my college fees by,paraphrase,FEE-002,FEE-002|FEE-001|FEE-003,0.3333333333333333,1.0,1.0,1,1,True,,9.643899975344539
-semantic,Q13,money back if I leave the course before it starts,combined,ADM-018|FEE-015,ADM-018|REG-022|REG-003,0.3333333333333333,0.5,1.0,1,1,True,FEE-015,10.06160001270473
-semantic,Q14,certificate proving I am currently a student here,paraphrase,FEE-011,ATT-011|FEE-011|FEE-012,0.3333333333333333,1.0,0.5,2,1,True,,9.915400063619018
-semantic,Q15,how do I register the subjects I want this term,paraphrase,REG-001,REG-001|REG-016|REG-003,0.3333333333333333,1.0,1.0,1,1,True,,9.588200016878545
-semantic,Q16,I want to swap one subject for another after registration,combined,REG-003|REG-018,REG-018|ADM-019|REG-003,0.6666666666666666,1.0,1.0,1,1,True,,9.536900091916323
-semantic,Q17,what marks do I need to keep my scholarship,paraphrase,FEE-008,FEE-009|FEE-008|FEE-007,0.3333333333333333,1.0,0.5,2,1,True,,9.18729999102652
-semantic,Q18,"my exam paper marks look wrong, can I complain",paraphrase,REG-011,REG-021|REG-010|REG-011,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,9.293300099670887
-semantic,Q19,i failed a subject what do i do next,short,REG-009|REG-014,REG-022|ATT-016|ATT-020,0.0,0.0,0.0,0,0,False,REG-009|REG-014,9.985800017602742
-semantic,Q20,how many days can I keep a library book,short,LIB-003,LIB-009|LIB-007|LIB-002,0.0,0.0,0.0,0,0,False,LIB-003,9.176000021398067
-semantic,Q21,place to study quietly on campus,paraphrase,LIB-010,LIB-010|HOS-018|HOS-017,0.3333333333333333,1.0,1.0,1,1,True,,9.715199936181307
-semantic,Q22,someone is bullying me in the hostel how do I report it,paraphrase,HOS-011,HOS-011|HOS-006|HOS-022,0.3333333333333333,1.0,1.0,1,1,True,,9.653100045397878
-semantic,Q23,doctor on campus where and when,short,HOS-014,HOS-014|HOS-013|HOS-017,0.3333333333333333,1.0,1.0,1,1,True,,8.763300022110343
-semantic,Q24,matlab licence for my project,keyword-heavy,TEC-014,TEC-014|TEC-010|TEC-005,0.3333333333333333,1.0,1.0,1,1,True,,8.997000055387616
-semantic,Q25,can I stay somewhere on campus instead of travelling daily,combined,HOS-001|HOS-002,HOS-005|HOS-017|HOS-021,0.0,0.0,0.0,0,0,False,HOS-001|HOS-002,9.528400027193129
-semantic,Q26,final year marksheet in a sealed envelope for a foreign university,combined,REG-017|FEE-013,FEE-013|ADM-002|REG-021,0.3333333333333333,0.5,1.0,1,1,True,REG-017,10.261200019158423
-semantic,Q27,appeal against the college decision on my marks,paraphrase,ATT-020,ATT-020|ATT-016|ATT-018,0.3333333333333333,1.0,1.0,1,1,True,,9.238800033926964
-semantic,Q28,installment option for paying admission charges,keyword-heavy,FEE-005,FEE-005|ADM-006|FEE-021,0.3333333333333333,1.0,1.0,1,1,True,,8.648699964396656
-semantic,Q29,how do i submit a medical certificate for missed classes,combined,ATT-011|ATT-004,REG-008|ATT-011|FEE-017,0.3333333333333333,0.5,0.5,2,1,True,ATT-004,9.660599986091256
-semantic,Q30,email account of the college how to open it,paraphrase,TEC-006,TEC-006|ADM-016|TEC-016,0.3333333333333333,1.0,1.0,1,1,True,,9.477399988099933
-semantic,Q31,no dues certificate before graduation,paraphrase,FEE-017,FEE-017|ADM-004|FEE-011,0.3333333333333333,1.0,1.0,1,1,True,,9.711000020615757
-semantic,Q32,what attendance percentage is compulsory in labs,combined,ATT-007|REG-006,ATT-007|ATT-001|ATT-002,0.3333333333333333,0.5,1.0,1,1,True,REG-006,10.471799992956221
-semantic,Q33,vpn to read papers from home,combined,TEC-021|LIB-006,LIB-006|TEC-018|TEC-021,0.6666666666666666,1.0,1.0,1,1,True,,10.339400032535195
-semantic,Q34,branch change possible after first year,paraphrase,ADM-019,ADM-019|ADM-017|ADM-011,0.3333333333333333,1.0,1.0,1,1,True,,9.359500021673739
-semantic,Q35,exam admit card download,keyword-heavy,REG-007,REG-007|ADM-004|ADM-016,0.3333333333333333,1.0,1.0,1,1,True,,8.8481999700889
-semantic,Q36,deadline to add or remove a subject,combined,REG-002|REG-003,REG-002|ADM-017|REG-022,0.3333333333333333,0.5,1.0,1,1,True,REG-003,9.18729999102652
-semantic,Q37,fees paid in parts allowed or not,paraphrase,FEE-005,FEE-005|FEE-020|FEE-024,0.3333333333333333,1.0,1.0,1,1,True,,9.392799925990403
-semantic,Q38,how do i book the badminton court,paraphrase,HOS-016,HOS-016|HOS-020|HOS-015,0.3333333333333333,1.0,1.0,1,1,True,,8.983300067484379
-semantic,Q39,suspicious email asking for my password,paraphrase,TEC-017,TEC-017|TEC-006|FEE-020,0.3333333333333333,1.0,1.0,1,1,True,,9.63029998820275
-semantic,Q40,cgpa and grade points explained,combined,REG-012|REG-013,REG-013|REG-012|ATT-013,0.6666666666666666,1.0,1.0,1,1,True,,9.878700016997755
+tfidf,Q01,I am not sure whether I am allowed to sit for my end semester papers,paraphrase,REG-005|REG-006,REG-006|ATT-014|LIB-012,0.3333333333333333,0.5,1.0,1,1,True,REG-005,1.1720999609678984
+tfidf,Q02,How much of my classes do I need to attend to be allowed to write exams?,paraphrase,REG-006|ATT-001,ADM-018|ATT-002|FEE-007,0.0,0.0,0.0,0,0,False,REG-006|ATT-001,1.2098000152036548
+tfidf,Q03,steps to get into the university as a new student,short,ADM-001|ADM-009,FEE-013|TEC-016|ADM-001,0.3333333333333333,0.5,0.3333333333333333,3,1,True,ADM-009,0.9594999719411135
+tfidf,Q04,papers I need to submit with my application form,keyword-heavy,ADM-002,LIB-012|ADM-007|ADM-001,0.0,0.0,0.0,0,0,False,ADM-002,0.8987999754026532
+tfidf,Q05,"my attendance is very low, what will happen to me?",paraphrase,ATT-003|ATT-004,ATT-003|ATT-013|ATT-009,0.3333333333333333,0.5,1.0,1,1,True,ATT-004,0.8267000084742904
+tfidf,Q06,can I borrow more than two books and for how long?,paraphrase,LIB-002|LIB-003,LIB-002|LIB-016|LIB-006,0.3333333333333333,0.5,1.0,1,1,True,LIB-003,0.8390999864786863
+tfidf,Q07,I lost the book I borrowed from the reading room,paraphrase,LIB-007,LIB-007|LIB-004|LIB-003,0.3333333333333333,1.0,1.0,1,1,True,,0.8148999186232686
+tfidf,Q08,how to get internet on my phone in the hostel,paraphrase,HOS-009,HOS-009|TEC-003|HOS-001,0.3333333333333333,1.0,1.0,1,1,True,,0.811800011433661
+tfidf,Q09,electric kettle in my hostel room is it allowed,keyword-heavy,HOS-012,HOS-006|HOS-003|HOS-002,0.0,0.0,0.0,0,0,False,HOS-012,0.7999000372365117
+tfidf,Q10,I forgot my login password for the student website,paraphrase,TEC-001,TEC-001|TEC-002|TEC-017,0.3333333333333333,1.0,1.0,1,1,True,,0.8177999407052994
+tfidf,Q11,wireless keeps dropping in the academic block,paraphrase,TEC-004,TEC-003|ATT-013|ATT-020,0.0,0.0,0.0,0,0,False,TEC-004,0.7998000364750624
+tfidf,Q12,when do I have to pay my college fees by,paraphrase,FEE-002,FEE-005|FEE-001|FEE-002,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,0.7804000051692128
+tfidf,Q13,money back if I leave the course before it starts,combined,ADM-018|FEE-015,ATT-005|ATT-011|ATT-006,0.0,0.0,0.0,0,0,False,ADM-018|FEE-015,0.8045999566093087
+tfidf,Q14,certificate proving I am currently a student here,paraphrase,FEE-011,FEE-011|FEE-012|FEE-017,0.3333333333333333,1.0,1.0,1,1,True,,0.9575999574735761
+tfidf,Q15,how do I register the subjects I want this term,paraphrase,REG-001,REG-016|REG-019|REG-001,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,0.7969000143930316
+tfidf,Q16,I want to swap one subject for another after registration,combined,REG-003|REG-018,REG-014|REG-018|REG-002,0.3333333333333333,0.5,0.5,2,1,True,REG-003,0.8477000519633293
+tfidf,Q17,what marks do I need to keep my scholarship,paraphrase,FEE-008,FEE-008|FEE-021|FEE-009,0.3333333333333333,1.0,1.0,1,1,True,,0.8036999497562647
+tfidf,Q18,"my exam paper marks look wrong, can I complain",paraphrase,REG-011,FEE-020|REG-010|REG-009,0.0,0.0,0.0,0,0,False,REG-011,0.8013999322429299
+tfidf,Q19,i failed a subject what do i do next,short,REG-009|REG-014,REG-014|TEC-002|ADM-014,0.3333333333333333,0.5,1.0,1,1,True,REG-009,0.7821000181138515
+tfidf,Q20,how many days can I keep a library book,short,LIB-003,LIB-007|LIB-011|LIB-009,0.0,0.0,0.0,0,0,False,LIB-003,0.8026000577956438
+tfidf,Q21,place to study quietly on campus,paraphrase,LIB-010,LIB-010|HOS-017|HOS-018,0.3333333333333333,1.0,1.0,1,1,True,,0.8093999931588769
+tfidf,Q22,someone is bullying me in the hostel how do I report it,paraphrase,HOS-011,HOS-006|TEC-009|HOS-011,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,0.8107000030577183
+tfidf,Q23,doctor on campus where and when,short,HOS-014,HOS-014|ATT-011|HOS-017,0.3333333333333333,1.0,1.0,1,1,True,,0.8149000350385904
+tfidf,Q24,matlab licence for my project,keyword-heavy,TEC-014,TEC-014|TEC-010,0.3333333333333333,1.0,1.0,1,1,True,,0.7924999808892608
+tfidf,Q25,can I stay somewhere on campus instead of travelling daily,combined,HOS-001|HOS-002,HOS-005|HOS-017|HOS-018,0.0,0.0,0.0,0,0,False,HOS-001|HOS-002,0.790799967944622
+tfidf,Q26,final year marksheet in a sealed envelope for a foreign university,combined,REG-017|FEE-013,ADM-017|FEE-013|REG-017,0.6666666666666666,1.0,0.5,2,1,True,,0.7984000258147717
+tfidf,Q27,appeal against the college decision on my marks,paraphrase,ATT-020,ATT-020|REG-010|REG-012,0.3333333333333333,1.0,1.0,1,1,True,,0.8791000582277775
+tfidf,Q28,installment option for paying admission charges,keyword-heavy,FEE-005,ADM-017|HOS-002|ADM-001,0.0,0.0,0.0,0,0,False,FEE-005,0.8335000602528453
+tfidf,Q29,how do i submit a medical certificate for missed classes,combined,ATT-011|ATT-004,ATT-011|REG-008|ADM-018,0.3333333333333333,0.5,1.0,1,1,True,ATT-004,0.8157999254763126
+tfidf,Q30,email account of the college how to open it,paraphrase,TEC-006,TEC-006|TEC-017|TEC-016,0.3333333333333333,1.0,1.0,1,1,True,,0.7560000522062182
+tfidf,Q31,no dues certificate before graduation,paraphrase,FEE-017,FEE-017|FEE-012|FEE-011,0.3333333333333333,1.0,1.0,1,1,True,,0.7289999630302191
+tfidf,Q32,what attendance percentage is compulsory in labs,combined,ATT-007|REG-006,ATT-002|ATT-007|ATT-003,0.3333333333333333,0.5,0.5,2,1,True,REG-006,0.7294999668374658
+tfidf,Q33,vpn to read papers from home,combined,TEC-021|LIB-006,TEC-018|LIB-012|TEC-021,0.3333333333333333,0.5,0.3333333333333333,3,1,True,LIB-006,0.770400045439601
+tfidf,Q34,branch change possible after first year,paraphrase,ADM-019,ADM-019|ADM-017|REG-018,0.3333333333333333,1.0,1.0,1,1,True,,0.7480999920517206
+tfidf,Q35,exam admit card download,keyword-heavy,REG-007,REG-007|HOS-019|LIB-008,0.3333333333333333,1.0,1.0,1,1,True,,0.7394999265670776
+tfidf,Q36,deadline to add or remove a subject,combined,REG-002|REG-003,REG-003|REG-014|REG-002,0.6666666666666666,1.0,1.0,1,1,True,,0.7512000156566501
+tfidf,Q37,fees paid in parts allowed or not,paraphrase,FEE-005,FEE-005|HOS-005|ATT-014,0.3333333333333333,1.0,1.0,1,1,True,,0.7693000370636582
+tfidf,Q38,how do i book the badminton court,paraphrase,HOS-016,HOS-016|HOS-020|LIB-011,0.3333333333333333,1.0,1.0,1,1,True,,0.7359000155702233
+tfidf,Q39,suspicious email asking for my password,paraphrase,TEC-017,TEC-017|TEC-001|TEC-006,0.3333333333333333,1.0,1.0,1,1,True,,0.7492000004276633
+tfidf,Q40,cgpa and grade points explained,combined,REG-012|REG-013,REG-012|REG-013|ATT-016,0.6666666666666666,1.0,1.0,1,1,True,,0.7405000505968928
+semantic,Q01,I am not sure whether I am allowed to sit for my end semester papers,paraphrase,REG-005|REG-006,REG-006|ATT-006|LIB-018,0.3333333333333333,0.5,1.0,1,1,True,REG-005,12.915699975565076
+semantic,Q02,How much of my classes do I need to attend to be allowed to write exams?,paraphrase,REG-006|ATT-001,REG-004|REG-006|REG-005,0.3333333333333333,0.5,0.5,2,1,True,ATT-001,14.351399964652956
+semantic,Q03,steps to get into the university as a new student,short,ADM-001|ADM-009,ADM-001|ADM-011|FEE-011,0.3333333333333333,0.5,1.0,1,1,True,ADM-009,10.380899999290705
+semantic,Q04,papers I need to submit with my application form,keyword-heavy,ADM-002,ADM-002|ADM-001|FEE-023,0.3333333333333333,1.0,1.0,1,1,True,,10.220099939033389
+semantic,Q05,"my attendance is very low, what will happen to me?",paraphrase,ATT-003|ATT-004,ATT-003|ATT-004|ATT-001,0.6666666666666666,1.0,1.0,1,1,True,,10.5876000598073
+semantic,Q06,can I borrow more than two books and for how long?,paraphrase,LIB-002|LIB-003,LIB-002|LIB-004|LIB-003,0.6666666666666666,1.0,1.0,1,1,True,,10.413400013931096
+semantic,Q07,I lost the book I borrowed from the reading room,paraphrase,LIB-007,LIB-007|LIB-004|LIB-011,0.3333333333333333,1.0,1.0,1,1,True,,10.203700046986341
+semantic,Q08,how to get internet on my phone in the hostel,paraphrase,HOS-009,HOS-009|TEC-003|TEC-008,0.3333333333333333,1.0,1.0,1,1,True,,11.01130002643913
+semantic,Q09,electric kettle in my hostel room is it allowed,keyword-heavy,HOS-012,HOS-012|HOS-005|HOS-021,0.3333333333333333,1.0,1.0,1,1,True,,12.092900113202631
+semantic,Q10,I forgot my login password for the student website,paraphrase,TEC-001,TEC-001|TEC-002|TEC-006,0.3333333333333333,1.0,1.0,1,1,True,,11.567900073714554
+semantic,Q11,wireless keeps dropping in the academic block,paraphrase,TEC-004,TEC-004|TEC-008|TEC-003,0.3333333333333333,1.0,1.0,1,1,True,,10.719899903051555
+semantic,Q12,when do I have to pay my college fees by,paraphrase,FEE-002,FEE-002|FEE-001|FEE-003,0.3333333333333333,1.0,1.0,1,1,True,,10.050200042314827
+semantic,Q13,money back if I leave the course before it starts,combined,ADM-018|FEE-015,ADM-018|REG-022|REG-003,0.3333333333333333,0.5,1.0,1,1,True,FEE-015,10.139800026081502
+semantic,Q14,certificate proving I am currently a student here,paraphrase,FEE-011,ATT-011|FEE-011|FEE-012,0.3333333333333333,1.0,0.5,2,1,True,,11.116700014099479
+semantic,Q15,how do I register the subjects I want this term,paraphrase,REG-001,REG-001|REG-016|REG-003,0.3333333333333333,1.0,1.0,1,1,True,,10.873400024138391
+semantic,Q16,I want to swap one subject for another after registration,combined,REG-003|REG-018,REG-018|ADM-019|REG-003,0.6666666666666666,1.0,1.0,1,1,True,,11.265799985267222
+semantic,Q17,what marks do I need to keep my scholarship,paraphrase,FEE-008,FEE-009|FEE-008|FEE-007,0.3333333333333333,1.0,0.5,2,1,True,,10.329499957151711
+semantic,Q18,"my exam paper marks look wrong, can I complain",paraphrase,REG-011,REG-021|REG-010|REG-011,0.3333333333333333,1.0,0.3333333333333333,3,1,True,,11.409500031732023
+semantic,Q19,i failed a subject what do i do next,short,REG-009|REG-014,REG-022|ATT-016|ATT-020,0.0,0.0,0.0,0,0,False,REG-009|REG-014,10.45099995099008
+semantic,Q20,how many days can I keep a library book,short,LIB-003,LIB-009|LIB-007|LIB-002,0.0,0.0,0.0,0,0,False,LIB-003,11.496499995701015
+semantic,Q21,place to study quietly on campus,paraphrase,LIB-010,LIB-010|HOS-018|HOS-017,0.3333333333333333,1.0,1.0,1,1,True,,10.002799914218485
+semantic,Q22,someone is bullying me in the hostel how do I report it,paraphrase,HOS-011,HOS-011|HOS-006|HOS-022,0.3333333333333333,1.0,1.0,1,1,True,,11.339700082316995
+semantic,Q23,doctor on campus where and when,short,HOS-014,HOS-014|HOS-013|HOS-017,0.3333333333333333,1.0,1.0,1,1,True,,10.036100051365793
+semantic,Q24,matlab licence for my project,keyword-heavy,TEC-014,TEC-014|TEC-010|TEC-005,0.3333333333333333,1.0,1.0,1,1,True,,10.59790002182126
+semantic,Q25,can I stay somewhere on campus instead of travelling daily,combined,HOS-001|HOS-002,HOS-005|HOS-017|HOS-021,0.0,0.0,0.0,0,0,False,HOS-001|HOS-002,10.714699979871511
+semantic,Q26,final year marksheet in a sealed envelope for a foreign university,combined,REG-017|FEE-013,FEE-013|ADM-002|REG-021,0.3333333333333333,0.5,1.0,1,1,True,REG-017,12.047099997289479
+semantic,Q27,appeal against the college decision on my marks,paraphrase,ATT-020,ATT-020|ATT-016|ATT-018,0.3333333333333333,1.0,1.0,1,1,True,,11.164900031872094
+semantic,Q28,installment option for paying admission charges,keyword-heavy,FEE-005,FEE-005|ADM-006|FEE-021,0.3333333333333333,1.0,1.0,1,1,True,,10.222699958831072
+semantic,Q29,how do i submit a medical certificate for missed classes,combined,ATT-011|ATT-004,REG-008|ATT-011|FEE-017,0.3333333333333333,0.5,0.5,2,1,True,ATT-004,11.961800046265125
+semantic,Q30,email account of the college how to open it,paraphrase,TEC-006,TEC-006|ADM-016|TEC-016,0.3333333333333333,1.0,1.0,1,1,True,,12.702199979685247
+semantic,Q31,no dues certificate before graduation,paraphrase,FEE-017,FEE-017|ADM-004|FEE-011,0.3333333333333333,1.0,1.0,1,1,True,,12.043599970638752
+semantic,Q32,what attendance percentage is compulsory in labs,combined,ATT-007|REG-006,ATT-007|ATT-001|ATT-002,0.3333333333333333,0.5,1.0,1,1,True,REG-006,11.706799967214465
+semantic,Q33,vpn to read papers from home,combined,TEC-021|LIB-006,LIB-006|TEC-018|TEC-021,0.6666666666666666,1.0,1.0,1,1,True,,9.753199992701411
+semantic,Q34,branch change possible after first year,paraphrase,ADM-019,ADM-019|ADM-017|ADM-011,0.3333333333333333,1.0,1.0,1,1,True,,10.350099997594953
+semantic,Q35,exam admit card download,keyword-heavy,REG-007,REG-007|ADM-004|ADM-016,0.3333333333333333,1.0,1.0,1,1,True,,11.598699958994985
+semantic,Q36,deadline to add or remove a subject,combined,REG-002|REG-003,REG-002|ADM-017|REG-022,0.3333333333333333,0.5,1.0,1,1,True,REG-003,11.357199982739985
+semantic,Q37,fees paid in parts allowed or not,paraphrase,FEE-005,FEE-005|FEE-020|FEE-024,0.3333333333333333,1.0,1.0,1,1,True,,11.010000016540289
+semantic,Q38,how do i book the badminton court,paraphrase,HOS-016,HOS-016|HOS-020|HOS-015,0.3333333333333333,1.0,1.0,1,1,True,,10.176799958571792
+semantic,Q39,suspicious email asking for my password,paraphrase,TEC-017,TEC-017|TEC-006|FEE-020,0.3333333333333333,1.0,1.0,1,1,True,,10.814799927175045
+semantic,Q40,cgpa and grade points explained,combined,REG-012|REG-013,REG-013|REG-012|ATT-013,0.6666666666666666,1.0,1.0,1,1,True,,11.290700058452785

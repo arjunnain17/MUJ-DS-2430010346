@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-22T16:25:17+00:00",
+  "generated_at_utc": "2026-10-22T16:44:11+00:00",
   "querysense_version": "1.0.0",
   "environment": {
     "python": "3.13.14",
@@ -28,7 +28,7 @@
         "score_label": "cosine similarity (TF-IDF)",
         "documents": 150,
         "model_load_seconds": 0.0,
-        "build_seconds": 0.0294,
+        "build_seconds": 0.0302,
         "modality": "sparse lexical",
         "vectorizer": "sklearn TfidfVectorizer",
         "ngram_range": [
@@ -49,13 +49,13 @@
         "hit_rate_at_k": 0.775,
         "map_at_k": 0.56875,
         "queries_with_no_relevant_retrieved": 9,
-        "mean_latency_ms": 1.0256150038912892,
-        "median_latency_ms": 1.0213999776169658,
-        "p95_latency_ms": 1.1224600370042026,
+        "mean_latency_ms": 0.8222724980441853,
+        "median_latency_ms": 0.8019999950192869,
+        "p95_latency_ms": 0.9701299713924522,
         "queries": 40,
         "model": "tfidf",
         "model_load_seconds": 0.0,
-        "index_build_seconds": 0.0294
+        "index_build_seconds": 0.0302
       }
     },
     "semantic": {
@@ -64,8 +64,8 @@
         "name": "semantic",
         "score_label": "cosine similarity (MiniLM embeddings)",
         "documents": 150,
-        "model_load_seconds": 10.4392,
-        "build_seconds": 0.6963,
+        "model_load_seconds": 10.088,
+        "build_seconds": 0.7284,
         "modality": "dense semantic",
         "model": "sentence-transformers/all-MiniLM-L6-v2",
         "device": "cpu",
@@ -82,13 +82,13 @@
         "hit_rate_at_k": 0.925,
         "map_at_k": 0.7583333333333333,
         "queries_with_no_relevant_retrieved": 3,
-        "mean_latency_ms": 9.668202506145462,
-        "median_latency_ms": 9.573950024787337,
-        "p95_latency_ms": 10.53513499209657,
+        "mean_latency_ms": 11.062225000932813,
+        "median_latency_ms": 10.94170002033934,
+        "p95_latency_ms": 12.712874979479238,
         "queries": 40,
         "model": "semantic",
-        "model_load_seconds": 10.4392,
-        "index_build_seconds": 0.6963
+        "model_load_seconds": 10.088,
+        "index_build_seconds": 0.7284
       }
     }
   },
@@ -102,6 +102,6 @@
     "precision_at_k_delta": 0.0667,
     "recall_at_k_delta": 0.1625,
     "mrr_delta": 0.2042,
-    "median_latency_ms_delta": 8.553
+    "median_latency_ms_delta": 10.14
   }
 }
