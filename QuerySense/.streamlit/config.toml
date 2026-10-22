@@ -1,0 +1,22 @@
+# QuerySense presentation settings.
+# The theme is pinned so the interface renders identically regardless of the
+# viewer's operating-system colour scheme (important on Streamlit Cloud).
+
+[theme]
+base = "light"
+primaryColor = "#4f46e5"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8fafc"
+textColor = "#0f172a"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "full"
+
+[server]
+headless = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
