@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local model caches (never commit downloaded weights)
+.cache/
+models/
+*.safetensors
+*.pt
+*.bin
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local uploads written at runtime
+data/uploads/

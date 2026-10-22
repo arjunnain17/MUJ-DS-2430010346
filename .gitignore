@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Model / embedding caches (never commit weights)
+.cache/
+models/
+*.bin
+*.safetensors
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Agent / tooling state
+.commandcode/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,10 @@
+# QuerySense runtime and development dependencies
+# Python 3.10+ required (developed and tested on Python 3.13)
+
+streamlit>=1.30
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+sentence-transformers>=2.2
+plotly>=5.18
+pytest>=7.4
